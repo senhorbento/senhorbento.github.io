@@ -1,11 +1,15 @@
 body{
-    background: rgb(248, 230, 206);
+    background: rgb(0, 0, 0);
     max-width: 800px;
     margin: auto;
 }
 
+p{
+    margin: 0;
+}
+
 #title{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Sans-serif";
     font-size: 22px;
     font-weight: bold;
@@ -15,7 +19,7 @@ body{
 }
 
 .post_title{
-    color: rgb(50, 50, 50);
+    color: rgb(255, 255, 255);
     font-family: "Times New Roman";
     font-size: 18px;
     font-style: normal;
@@ -24,7 +28,7 @@ body{
 }
 
 .post_content{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Sans-serif";
     font-size: 16px;
     margin: 0;
@@ -32,18 +36,44 @@ body{
     margin-bottom: 5px;
 }
 
+.post_content_description{
+    color: rgb(255, 255, 255);
+    font-family: "Sans-serif";
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.post_link{
+    color: rgb(255, 255, 255);
+    font-family: "Sans-serif";
+    font-size: 16px;
+    margin: 0;
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+
 .link_img{
     width: 5%;
     margin: 0;
     margin-left: 5px;
+    border-radius: 50%;
+}
+
+.link_img_git{
+    background-color: rgb(92, 165, 50);
+    width: 5%;
+    margin: 0;
+    margin-left: 5px;
+    border-radius: 50%;
 }
 
 .post{
-    background: white;
+    background: rgb(66, 64, 64);
     padding: 10px;
     /*px px = sup e inf, esq e dir
       px px px px = sup, dir, inf, esq*/
-    border: 2px solid rgb(245, 211, 167);
+    border: 2px solid rgb(92, 165, 50);
     /*solid, dotted, dashed
       border-(top) (right) (bottom) (left)*/
     border-radius: 10px;
@@ -51,7 +81,7 @@ body{
 }
 
 .citacao{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Times New Roman";
     font-size: 14px;
     font-style: italic;

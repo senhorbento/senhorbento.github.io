@@ -1,21 +1,20 @@
 body{
     background: rgb(20, 20, 20);
-    max-width: 800px;
-    margin: auto;
 }
 
 p{
     margin: 0;
 }
 
-#title{
+.title{
     color: rgb(255, 255, 255);
     font-family: "Sans-serif";
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     margin: 10px;
     margin-bottom: 15px;
     text-align: center;
+    align-items: center;
 }
 
 .post_title{
@@ -68,21 +67,44 @@ p{
     border-radius: 50%;
 }
 
-.post{
-    background: rgb(66, 64, 64);
-    padding: 10px;
-    /*px px = sup e inf, esq e dir
-      px px px px = sup, dir, inf, esq*/
+.conteiner{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.boxApresentacao{
+    background: rgb(64, 64, 64);
     border: 2px solid rgb(80, 160, 30);
-    /*solid, dotted, dashed
-      border-(top) (right) (bottom) (left)*/
-    border-radius: 10px;
-    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.boxCuriosidades{
+    background: rgb(64, 64, 64);
+    border: 2px solid rgb(80, 160, 30);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.boxProjetos{
+    background: rgb(64, 64, 64);
+    border: 2px solid rgb(80, 160, 30);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.boxRodape{
+    align-items: baseline;
 }
 
 .citacao{
     color: rgb(255, 255, 255);
     font-family: "Times New Roman";
-    font-size: 14px;
+    font-size: 18px;
     font-style: italic;
+    margin-right: 15px;
 }

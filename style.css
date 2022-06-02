@@ -1,5 +1,5 @@
 body{
-    background: rgb(0, 0, 0);
+    background: rgb(20, 20, 20);
     max-width: 800px;
     margin: auto;
 }
@@ -19,7 +19,7 @@ p{
 }
 
 .post_title{
-    color: rgb(255, 255, 255);
+    color: rgb(245, 245, 245);
     font-family: "Times New Roman";
     font-size: 18px;
     font-style: normal;
@@ -28,7 +28,7 @@ p{
 }
 
 .post_content{
-    color: rgb(255, 255, 255);
+    color: rgb(245, 245, 245);
     font-family: "Sans-serif";
     font-size: 16px;
     margin: 0;
@@ -37,7 +37,7 @@ p{
 }
 
 .post_content_description{
-    color: rgb(255, 255, 255);
+    color: rgb(245, 245, 245);
     font-family: "Sans-serif";
     font-size: 16px;
     margin-left: 20px;
@@ -45,7 +45,7 @@ p{
 }
 
 .post_link{
-    color: rgb(255, 255, 255);
+    color: rgb(226, 226, 226);
     font-family: "Sans-serif";
     font-size: 16px;
     margin: 0;
@@ -61,7 +61,7 @@ p{
 }
 
 .link_img_git{
-    background-color: rgb(92, 165, 50);
+    background-color: rgb(80, 160, 30);
     width: 5%;
     margin: 0;
     margin-left: 5px;
@@ -73,7 +73,7 @@ p{
     padding: 10px;
     /*px px = sup e inf, esq e dir
       px px px px = sup, dir, inf, esq*/
-    border: 2px solid rgb(92, 165, 50);
+    border: 2px solid rgb(80, 160, 30);
     /*solid, dotted, dashed
       border-(top) (right) (bottom) (left)*/
     border-radius: 10px;

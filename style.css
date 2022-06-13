@@ -6,17 +6,6 @@ p{
     margin: 0;
 }
 
-.title{
-    color: rgb(255, 255, 255);
-    font-family: "Sans-serif";
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 25px;
-    margin-top: 15px;
-    text-align: center;
-    align-items: center;
-}
-
 .post_title{
     color: rgb(245, 245, 245);
     font-family: "Times New Roman";
@@ -67,37 +56,58 @@ p{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-self: flex-start;
     gap: 10px;
 }
 
+.avatar{
+    min-width: 70px;
+    max-width: 100px;
+    margin: 0;
+    border-radius: 50%;
+    position: fixed;
+    left: 5%;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-family: "Sans-serif";
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    position: relative;
+}
+
 .boxApresentacao{
-    max-width: 40%;
+    max-width: 90%;
     background: rgb(64, 64, 64);
     border: 2px solid rgb(80, 160, 30);
     padding: 10px;
     border-radius: 12px;
     position: relative;
-    right: -5%;
+    left: 5%;
 }
 
 .boxCuriosidades{
-    max-width: 40%;
+    max-width: 90%;
     background: rgb(64, 64, 64);
     border: 2px solid rgb(80, 160, 30);
     padding: 10px;
     border-radius: 12px;
     position: relative;
-    right: -50%;
+    left: 5%;
 }
 
 .boxProjetos{
-    max-width: 40%;
+    max-width: 90%;
     background: rgb(64, 64, 64);
     border: 2px solid rgb(80, 160, 30);
     padding: 10px;
     border-radius: 12px;
     position: relative;
-    right: -5%;
+    left: 5%;
 }
 
 .boxRodape{
@@ -111,4 +121,5 @@ p{
     font-size: 18px;
     font-style: italic;
     margin-right: 15px;
+    margin-bottom: 5%;
 }

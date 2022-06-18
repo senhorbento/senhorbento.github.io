@@ -9,7 +9,7 @@ p{
 .post_title{
     color: #f6f1d1;
     font-family: "Times New Roman";
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     margin: 0;
     margin-bottom: 10px;
@@ -18,7 +18,7 @@ p{
 .post_content{
     color: #f6f1d1;
     font-family: "Sans-serif";
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     margin-left: 10px;
     margin-bottom: 5px;
@@ -27,7 +27,7 @@ p{
 .post_content_description{
     color: #f6f1d1;
     font-family: "Sans-serif";
-    font-size: 16px;
+    font-size: 18px;
     margin-left: 20px;
     margin-bottom: 5px;
 }
@@ -35,7 +35,16 @@ p{
 .post_link{
     color: #ffd386;
     font-family: "Sans-serif";
-    font-size: 16px;
+    font-size: 18px;
+    margin: 0;
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+
+.post_link{
+    color: #ffd386;
+    font-family: "Sans-serif";
+    font-size: 18px;
     margin: 0;
     margin-left: 0px;
     margin-bottom: 5px;

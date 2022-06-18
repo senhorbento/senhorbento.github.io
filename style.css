@@ -15,6 +15,15 @@ p{
     margin-bottom: 10px;
 }
 
+.post_subtitle{
+    color: #f6f1d1;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    font-style: normal;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
 .post_content{
     color: #f6f1d1;
     font-family: "Sans-serif";
@@ -82,16 +91,6 @@ p{
 }
 
 .boxApresentacao{
-    max-width: 90%;
-    background: #424242;
-    border: 2px solid #8FB9AA;
-    padding: 10px;
-    border-radius: 12px;
-    position: relative;
-    left: 5%;
-}
-
-.boxCuriosidades{
     max-width: 90%;
     background: #6d3a3a;
     border: 2px solid #8FB9AA;

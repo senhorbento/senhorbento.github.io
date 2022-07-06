@@ -46,14 +46,14 @@ p{
 }
 
 .containerLinguagens{
+    color: #f6f1d1;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
     max-width: 50%;
-    color: #f6f1d1;
-    
+    margin-top: 10px;
 }
 
 .listaLinguagens{

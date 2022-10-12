@@ -129,22 +129,12 @@ p{
     position: relative;
 }
 
-.boxApresentacao{
+.boxTexto{
     max-width: 90%;
     background: #393e83;
     border: 2px solid #8FB9AA;
     padding: 10px;
-    border-radius: 12px;
-    position: relative;
-    left: 5%;
-}
-
-.boxProjetos{
-    max-width: 90%;
-    background: #393e83;
-    border: 2px solid #8FB9AA;
-    padding: 10px;
-    border-radius: 12px;
+    border-radius: 0px 20px 0px 20px;
     position: relative;
     left: 5%;
 }

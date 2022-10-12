@@ -6,43 +6,17 @@ p{
     margin: 0;
 }
 
-.post_title{
-    color: #f6f1d1;
-    font-family: "Times New Roman";
-    font-size: 20px;
-    font-style: normal;
+ul{
     margin: 0;
-    margin-bottom: 10px;
+    margin-left: -20px;
 }
 
-.post_subtitle{
-    color: #f6f1d1;
-    font-family: "Times New Roman";
-    font-size: 18px;
-    font-style: bold;
+.avatar{
+    min-width: 70px;
+    max-width: 100px;
     margin: 0;
-    margin-bottom: 10px;
-}
-
-.post_content{
-    color: #f6f1d1;
-    font-family: "Sans-serif";
-    margin-bottom: 5px;
-    font-size: 18px;
-}
-
-.post_content_description{
-    color: #f6f1d1;
-    font-family: "Sans-serif";
-    font-size: 18px;
-    margin-left: 20px;
-    margin-bottom: 5px;
-}
-
-.post_link{
-    color: #ffd386;
-    font-family: "Sans-serif";
-    font-size: 18px;
+    position: absolute;
+    left: 5%;
 }
 
 .containerLinguagens{
@@ -56,49 +30,7 @@ p{
     margin-top: 10px;
 }
 
-.listaLinguagens{
-    margin: 0;
-    margin-left: -20px;
-}
-
-.linguagensDesktop{
-    display: flex;
-    flex-direction: column;
-}
-
-.linguagensWeb{
-    display: flex;
-    flex-direction: column;
-}
-
-.bancoDados{
-    display: flex;
-    flex-direction: column;
-}
-
-.embarcados{
-    display: flex;
-    flex-direction: column;
-}
-
-.langs_img{
-    width: auto;
-    min-width: 10px;
-    max-width: 40px;
-    margin: 0;
-    border-radius: 50%;
-}
-
-.link_img{
-    width: auto;
-    min-width: 30px;
-    max-width: 70px;
-    margin: 0;
-    margin-left: 5px;
-    border-radius: 50%;
-}
-
-.conteiner{
+.conteinerPrincipal{
     background-color: rgb(20,20,20);
     max-width: 100%;
     max-height: 100%;
@@ -109,27 +41,7 @@ p{
     gap: 10px;
 }
 
-.avatar{
-    min-width: 70px;
-    max-width: 100px;
-    margin: 0;
-    border-radius: 50%;
-    position: absolute;
-    left: 5%;
-}
-
-.title{
-    color: #f6f1d1;
-    font-family: "Sans-serif";
-    font-size: 30px;
-    font-weight: bold;
-    margin: 0;
-    margin-top: 35px;
-    margin-bottom: 45px;
-    position: relative;
-}
-
-.boxTexto{
+.designBox{
     max-width: 90%;
     background: #393e83;
     border: 2px solid #8FB9AA;
@@ -139,31 +51,22 @@ p{
     left: 5%;
 }
 
-.citacao{
-    color: rgb(255, 255, 255);
-    font-family: "Times New Roman";
-    font-size: 18px;
-    font-style: italic;
-    margin-right: 15px;
-    margin-bottom: 2%;
-}
-
-.boxRodape{
+.conteinerRodape{
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
 }
 
-.break{
-    flex-basis: 100%;
-    height: 0;
-}
-
-.creditos{
-    color: #ffd386;
-    align-self: flex-end;
-    font-family: "Sans-serif";
-    font-size: 16px;
+.conteinerInfos{
+    background-color: rgb(50, 50, 50);
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 40%;
+    margin-bottom: 10px;
 }

@@ -1,5 +1,5 @@
-# Meu portfólio
+# Portfólio
 
 Um simples site desenvolvido com a finalidade de ser um primeiro acesso aos meus conhecimentos.
 
-Você pode visualizá-lo [aqui](https://senhorbento.github.io).
+Você pode visualizá-lo [aqui](https://senhorbento.com.br).

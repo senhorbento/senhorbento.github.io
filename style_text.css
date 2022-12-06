@@ -1,59 +1,59 @@
 .pageTitle{
     color: #f6f1d1;
     font-family: "Sans-serif";
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
     margin: 0;
-    margin-top: 35px;
-    margin-bottom: 45px;
+    margin-top: 2.188rem;
+    margin-bottom: 2.813rem;
     position: relative;
 }
 
 .postTitle{
     color: #f6f1d1;
     font-family: "Times New Roman";
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .postSubtitle{
     color: #f6f1d1;
     font-family: "Times New Roman";
-    font-size: 18px;
+    font-size: 1.125rem;
     font-style: bold;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .postContent{
     color: #f6f1d1;
     font-family: "Sans-serif";
-    margin-bottom: 5px;
-    font-size: 18px;
+    margin-bottom: 0.313rem;
+    font-size: 1.125rem;
 }
 
 .postContentDescription{
     color: #f6f1d1;
     font-family: "Sans-serif";
-    font-size: 18px;
-    margin-left: 20px;
-    margin-bottom: 5px;
+    font-size: 1.125rem;
+    margin-left: 1.25rem;
+    margin-bottom: 0.313rem;
 }
 
 .postLink{
     color: #ffd386;
     font-family: "Sans-serif";
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .citacao{
     color: rgb(255, 255, 255);
     font-family: "Times New Roman";
-    font-size: 18px;
+    font-size: 1.125rem;
     font-style: italic;
-    margin-right: 15px;
+    margin-right: 0.313rem;
     margin-bottom: 2%;
 }
 
@@ -61,17 +61,16 @@
     color: #faf9f6;
     font-weight: bold;
     font-family: "Sans-serif";
-    font-size: 18px;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    gap: 10px;
+    font-size: 1.125rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    gap: 0.625rem;
 }
 
 .rodapeLink{
     color: #faf9f6;
     font-family: "Sans-serif";
-    font-size: 15px;
-    margin-bottom: 10px;
+    font-size: 1.125rem;
+    word-break: break-word;
     text-decoration: none;
 }

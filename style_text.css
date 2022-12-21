@@ -51,9 +51,8 @@
 .citacao{
     color: rgb(255, 255, 255);
     font-family: "Times New Roman";
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-style: italic;
-    margin-right: 0.313rem;
     margin-bottom: 2%;
 }
 
@@ -64,7 +63,6 @@
     font-size: 1.125rem;
     margin-top: 0.625rem;
     margin-bottom: 0.625rem;
-    gap: 0.625rem;
 }
 
 .rodapeLink{

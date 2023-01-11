@@ -1,0 +1,61 @@
+body {
+    background-color: grey;
+}
+
+h1, p, body {
+    margin: 0;
+}
+
+h1, p {
+    font-family: Arial;
+    padding-bottom: 1vw;
+}
+
+h1, p, body, button, input {
+    font-family: Arial;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    font-size: 1vw;
+    height: 2.5vw;
+    width: 18vw;
+    margin-bottom: 1vw;
+}
+
+button {
+    font-size: 1vw;
+    height: 2.5vw;
+    width: 18vw;
+}
+
+.container_login_background {
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    box-shadow: 12px 11px 0px 0px #626262;
+    min-height: 25vw; 
+    min-width: 25vw;
+}
+
+.container_login_title {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.container_buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 2.5vw;
+}

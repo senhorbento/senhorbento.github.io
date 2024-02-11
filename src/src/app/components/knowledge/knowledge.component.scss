@@ -1,0 +1,11 @@
+@import '../style.scss';
+
+.container {
+    justify-content: center;
+
+    >div {
+        @media (max-width: 768px) {
+            display: unset;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin: 0.5rem;
+
+    @media (max-width: 768px) {
+        height: auto;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    width: 100%;
+
+    >div {
+        flex-basis: calc(50% - 1rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5rem;
+        height: 100%;
+
+        @media (max-width: 768px) {
+            flex-basis: calc(100% - 1rem);
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
-import { MatListModule } from '@angular/material/list';
+
 
 @Component({
   selector: 'app-knowledge',
   standalone: true,
-  imports: [MatGridListModule, MatListModule],
+  imports: [MatGridListModule],
   templateUrl: './knowledge.component.html',
   styleUrl: './knowledge.component.scss'
 })

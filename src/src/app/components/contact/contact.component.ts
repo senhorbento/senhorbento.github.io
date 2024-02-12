@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
-import { MatGridListModule } from '@angular/material/grid-list';
 import { Constants } from '../../core/constants';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [MatGridListModule],
+  imports: [MatIconModule],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
 })
+
 export class ContactComponent {
   Constants: Constants = new Constants();
 }

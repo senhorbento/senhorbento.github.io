@@ -5,7 +5,7 @@ main {
     align-content: center;
     margin: 0.5rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 888px) {
         height: auto;
     }
 }
@@ -26,10 +26,17 @@ article {
         margin: 0.5rem;
         height: 100%;
 
-        @media (max-width: 768px) {
+        @media (max-width: 888px) {
             flex-basis: calc(100% - 1rem);
             justify-content: center;
             align-items: center;
         }
+    }
+}
+
+table{
+    display: flex;
+    @media (max-width: 888px) {
+        display: table;
     }
 }

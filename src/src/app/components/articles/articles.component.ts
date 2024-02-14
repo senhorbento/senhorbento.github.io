@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { Constants } from '../../core/constants';
 
 
 
@@ -11,5 +12,5 @@ import { MatGridListModule } from '@angular/material/grid-list';
   styleUrl: './articles.component.scss'
 })
 export class ArticlesComponent {
-
+  Constants: Constants = new Constants();
 }
